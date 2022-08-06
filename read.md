@@ -19,5 +19,5 @@
 Доменное имя ktstory.ru, регистратор reg.ru, домен делегирован DNS YandexCloud
 ```
 ##
-![](https://github.com/Alexdev87/devops-netology/blob/main/lesson9.2/123.png)
+![](https://github.com/Alexdev87/diplom/blob/main/domen.png)
 
