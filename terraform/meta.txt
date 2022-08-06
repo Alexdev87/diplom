@@ -1,0 +1,8 @@
+#cloud-config
+users:
+  - name: adm1
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh-authorized-keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC4toq5rOnpAR3ME62f6Kg2o9byWHRV6Bs0OpjRrdTq3F/SAFfPznbUOEtcBQlb+pw+dzWHtwzcN6JwZiJpW8cnbOIXAelOHPQylzqL3udmEBqo2wxXOv+WAGiQ57x+0LD5/AFYWpFXxEg8i1K5kE2JkFevsZRJYeCed4/ABi2fMacIB+44a+B1iJmYAGTEQO9boDIIPdJKqp8XsAzGJ2nuDFy1Vp8yvKqg7CNXWUzh3BxrEd9h1O4ndqawc4UNUNzth+PjMV7H/UMOqoFNaW2SZ5fYkzaJ+wPyOQK1buIYLwnTMCcCIZb+llAbNCZkZmYe2g4lZPGsbQJPSf4zafbk0RuG7t9ibd+Ui/WZ3iV91vi1POnHhGEddyhXQ+HkaiFR229Lt6A9/guiN6H42VcjCuKxKARNyxeJvswyVlScW3pUrHaV5Oos0f+IG6/fqc004S6/pnIBNo6RBl9XdxZkyN+efKcPZ+o6Kb6gpDoBOctCJM7Lt/XXXXXXXX= adm1@ubuntuserv

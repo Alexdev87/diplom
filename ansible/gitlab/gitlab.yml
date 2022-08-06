@@ -1,0 +1,8 @@
+---
+  - name: Installation gitlab
+    hosts: gitlab
+    become: yes
+    become_user: root
+    remote_user: adm1
+    roles:
+      - ansible-role-gitlab
